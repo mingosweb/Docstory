@@ -37,6 +37,10 @@ class controladorMain{
         $pagina = preg_replace('/\#panel2\#/ms',$bienvenida,$pagina);
         echo $pagina;
     }
+    
+    function ninguna(){
+    
+    }
 
 }
 
