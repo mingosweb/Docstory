@@ -25,11 +25,10 @@
             return $tipoRes;
         }
         
-        function insertar($nombre,$apellido,$usuario,$password){
-            
-            $res = $this->insertar("INSERT INTO usuario VALUES(null,'".$nombre."','".$apellido."','".$usuario."','".$password."')");
+        function insertar_usuario($nombre,$apellido,$usuario,$password){
+            $encrip = md5($password);
+            $res = $this->insertar("INSERT INTO usuario VALUES(null,'".$nombre."','".$apellido."','".$usuario."','".$encrip."')");
             return $res;
-            
         }
         
     }

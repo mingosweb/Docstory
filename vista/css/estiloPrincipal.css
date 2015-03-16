@@ -21,6 +21,9 @@ body{
 .form-inline *{
     margin: auto;
     margin-bottom: 10px;
+}
+
+.form-inline h3,a{
     color: white;
 }
 

@@ -8,7 +8,7 @@
                     <label class="sr-only center-block">constraseña</label>
                     <input type="password" class="form-control center-block" name="password" placeholder="contraseña">
                 </div>
-                <a href="#">Registrar</a>
+                <a href="index.php?accion=registrar">Registrar</a>
             <input type="hidden" name="accion" value="ingresar">
             <button type="submit" class="btn btn-primary center-block">Ingresar</button>
 </form>

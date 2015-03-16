@@ -1,1 +1,1 @@
-<img id="logo" src="logo.png" class="top-block" height="50px">
+<img id="logo" src="vista/images/logo.png" class="top-block" height="50px">
