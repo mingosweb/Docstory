@@ -6,6 +6,12 @@
 
 #cuerpo{
     width: 90%;
+    border: 1px solid red;
+}
+
+#cuerpo70{
+    width: 100%;
+    border: 1px solid red;
 }
 
 body{
@@ -35,6 +41,3 @@ body{
     margin: 0;
 }
 
-.navbar-header{
-    height: 120px;
-}

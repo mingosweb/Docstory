@@ -11,9 +11,9 @@
     
     <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">inicio</a></li>
-            <li><a href="#">inicio</a></li>
-            <li><a href="#">inicio</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="index.php?accion=cerrar">cerrar sesion</a></li>
         </ul>
     </div>
 </nav>

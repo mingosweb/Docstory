@@ -23,6 +23,9 @@
             case "registrar": 
                             $mvc->registrar();
                             break;
+            case "cerrar":
+                            $mvc->cerrarsesion();
+                            break;
           
         }
     }else if(!isset ($_GET['accion']) && isset ($_POST['accion']) ){

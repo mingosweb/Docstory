@@ -31,6 +31,11 @@
             return $res;
         }
         
+        function cerrarS(){
+        session_destroy();
+        
+        }
+        
     }
    
 
