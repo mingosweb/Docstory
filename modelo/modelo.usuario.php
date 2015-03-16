@@ -12,18 +12,14 @@
         
         function acceder($user,$password){
             $tipoRes=0;
-            $arrayUsuario = $this->obtener_resultado_arreglo("SELECT * FROM usuario WHERE (usuario.nomusuario='".$user."' and usuario.password = '".$password."')");
+            $arrayUsuario = $this->obtener_resultado_arreglo("SELECT * FROM usuario WHERE (usuario.nomusuario='".$user."')");
             foreach($arrayUsuario as $fila){
-                if ($fila['nomusuario'] == $user){
-                    if($fila['password'] == $password){
-                        $_SESSION['usuario'] = $fila['nomusuario'];
-                        $tipoRes = 1;
-                    }else{
-                        $tipoRes = 2;
-                    }
-                    
+                if ($fila['nomusuario'] == $user && $fila['password'] == $password){
+                    $_SESSION['usuario'] = $fila['nomusuario'];
+                    $tipoRes=1;
+                    break;
                 }else{
-                        $tipoRes = 3;
+                    $tipoRes = 2;
                 }
             }
             return $tipoRes;

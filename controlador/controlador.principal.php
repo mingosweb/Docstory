@@ -9,16 +9,10 @@ class controladorMain{
         $resLogin = $usuario->acceder($user,$password);
         switch($resLogin){
             case 1:
-                echo "1";
+                echo "usuario correcto";
             break;
             case 2:
-                echo "2";
-            break;
-            case 3:
-                echo "3";
-            break;
-            default:
-            echo "No existe";
+                echo "Usuario o contraseña no son validos";
             break;
         }
     }
