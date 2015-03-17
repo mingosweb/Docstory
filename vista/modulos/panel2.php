@@ -1,4 +1,4 @@
-<form roll="form" class="col-md-3 form-inline" action="index.php" method="post">
+<form id="formLogin" roll="form" class="col-md-3 form-inline" action="index.php" method="post">
                 <h3 class="center-block">Iniciar sesión</h2>
                 <div class="form-group center-block">
                     <label class="sr-only">usuario</label>

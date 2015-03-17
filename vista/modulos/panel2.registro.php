@@ -1,7 +1,5 @@
-<form roll="form" class="col-md-3 form-inline" action="index.php" method="post">
+<form id="formRegistro" roll="form" class="col-md-3 form-inline" action="index.php" method="post">
                 <h3 class="center-block">Registrate ya!</h2>
-                
-               
     
                 <div class="form-group center-block">
                     <label class="sr-only">Nombre</label>

@@ -32,8 +32,7 @@
         }
         
         function cerrarS(){
-        session_destroy();
-        
+            session_destroy();
         }
         
     }

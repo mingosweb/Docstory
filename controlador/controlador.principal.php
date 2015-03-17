@@ -35,8 +35,12 @@ class controladorMain{
     
     function principal(){
         $pagina = file_get_contents("vista/page.php");
+        $script = file_get_contents("vista/modulos/script.sesion.php");
+        $pagina = preg_replace('/\#librerias\#/ms',$script,$pagina);
         $header1 = file_get_contents("vista/seccion/header.php");
         $pagina = preg_replace('/\#encabezado\#/ms',$header1,$pagina);
+        $script = file_get_contents("vista/modulos/script.sesion.php");
+        $pagina = preg_replace('/\#librerias\#/ms',$script,$pagina);
         $cuerpo = file_get_contents("vista/modulos/cuerpo.php");
         $pagina = preg_replace('/\#cuerpo\#/ms',$cuerpo,$pagina);
         $login = file_get_contents("vista/modulos/panel1.php");
@@ -48,6 +52,8 @@ class controladorMain{
     
     function registrar(){
      $pagina = file_get_contents("vista/page.php");
+        $script = file_get_contents("vista/modulos/script.sesion.php");
+        $pagina = preg_replace('/\#librerias\#/ms',$script,$pagina);
         $header1 = file_get_contents("vista/seccion/header.php");
         $pagina = preg_replace('/\#encabezado\#/ms',$header1,$pagina);
         $cuerpo = file_get_contents("vista/modulos/cuerpo.php");
@@ -70,11 +76,13 @@ class controladorMain{
         $this->principal();
             
         }
+    
     function cerrarsesion(){
-    $usuario= new Tusuario();
-    $usuario->cerrarS();
-    $this->principal();
+        $usuario= new Tusuario();
+        $usuario->cerrarS();
+        $this->principal();
     }
+    
     }
 
 ?>

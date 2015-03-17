@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>www.docstory.co</title>
-    <link rel="stylesheet" type="text/css" href="vista/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="vista/css/estiloPrincipal.css" />
-</head>
-<body>
-  <?php
+<?php
 
     include "controlador/controlador.principal.php";
 
@@ -47,5 +39,3 @@
     }*/
     
 ?>
-</body>
-</html>
