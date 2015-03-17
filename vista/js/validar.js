@@ -1,6 +1,6 @@
 $(document).ready(
     function(){
-        /*$("#formLogin").validate({
+        $("#formLogin").validate({
             rules: {
                 usuario: { required: true},
                 password: {required: true}
@@ -10,7 +10,7 @@ $(document).ready(
                 password: "campo vacio"
             }
         } 
-        );*/
+        );
         
         $("#formRegistro").validate({
             rules: {
