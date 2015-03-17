@@ -31,11 +31,5 @@
             break;
         }
     }
-
-    /*if(!isset($_POST['accion'])){
-        $mvc->principal();
-    }else if($_POST['accion']=="ingresar"){
-        $mvc->ingresar($_POST['usuario'],$_POST['password']);
-    }*/
     
 ?>

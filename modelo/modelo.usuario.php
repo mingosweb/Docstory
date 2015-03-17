@@ -31,8 +31,13 @@
             return $res;
         }
         
-        function cerrarS(){
-            session_destroy();
+        function haySesion(){
+            if(isset($_SESSION['usuario'])){
+                $rta = true;
+            }else{
+                $rta=false;
+            }
+            return $rta;
         }
         
     }
