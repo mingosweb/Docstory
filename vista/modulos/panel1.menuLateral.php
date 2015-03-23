@@ -1,4 +1,4 @@
-<div class="col-sm-2">
+<div class="col-sm-3">
     <div class="sidebar-nav">
       <div class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
@@ -12,9 +12,9 @@
         </div>
         <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Crear Documento</a></li>
-            <li><a href="#">Buscar Documento</a></li>
-            <li><a href="#">Compartir</a></li>
+            <li><a href="index.php?accion=crear">Crear Documento</a></li>
+            <li><a href="index.php?accion=buscar">Buscar Documento</a></li>
+            <li><a href="#">Compartir Documento</a></li>
             <li><a href="#">Notificaciones <span class="badge">5</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->

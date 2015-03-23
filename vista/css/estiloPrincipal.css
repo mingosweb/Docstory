@@ -1,17 +1,18 @@
 #miheader{
     height: 100px;
     width: 100%;
-    background-color: #027c60;
+    background-color: #109586;
+    
 }
 
 #cuerpo{
     width: 90%;
-    border: 1px solid red;
+    
 }
 
 #cuerpo70{
     width: 100%;
-    border: 1px solid red;
+    
 }
 
 body{
@@ -21,12 +22,14 @@ body{
 .form-inline{
     margin-top: 150px;
     padding: 30px;
-    background-color: #027c60;
+    background-color: #109586;
+    border-radius: 20px 20px;
 }
 
 .form-inline *{
     margin: auto;
     margin-bottom: 10px;
+     border-radius: 20px 20px;
 }
 
 .form-inline h3,a{
@@ -41,3 +44,7 @@ body{
     margin: 0;
 }
 
+#navbarCollapse{
+
+    padding-left: 900px;
+}

@@ -1,9 +1,10 @@
-<?php
+
+  <?php
 
     include "controlador/controlador.principal.php";
 
     $mvc = new controladorMain();
-$sesion= $mvc->haySesion();
+	$sesion= $mvc->haySesion();
 
 
     if(!isset($_GET['accion']) && !isset ($_POST['accion'])){
@@ -73,5 +74,7 @@ $sesion= $mvc->haySesion();
             
         }
     }
+
+    
     
 ?>
