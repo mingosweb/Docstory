@@ -36,7 +36,7 @@ class controladorMain{
     
     function inicio(){
                 $pagina = file_get_contents("vista/page.php");
-                $script =  file_get_contents("vista/modulos/script.editor.php");
+                $script =  file_get_contents("vista/modulos/script.sesion.php");
                 $pagina = preg_replace('/\#librerias\#/ms',$script,$pagina);
                 $header2 = file_get_contents("vista/seccion/header-usuario.php");
                 $pagina = preg_replace('/\#encabezado\#/ms',$header2,$pagina);
