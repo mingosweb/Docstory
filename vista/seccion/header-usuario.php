@@ -6,7 +6,7 @@
             <span class="icon-bar"> </span>
             <span class="icon-bar"> </span>
             </button>
-        <a href="#" class="navbar-brand">logo</a>
+        <a href="index.php?accion=inicio" class="navbar-brand">logo</a>
     </div>
     
     <div id="navbarCollapse" class="collapse navbar-collapse">
